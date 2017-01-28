@@ -1,0 +1,6 @@
+framework module Pods_CasAuthSample_iOS {
+  umbrella header "Pods-CasAuthSample-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D7B56965BCD0D5770AAB71B /* Pods_CasAuthSample_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035DE9CF9B6F5D4BCBB6A8D8 /* Pods_CasAuthSample_iOS.framework */; };
+		D062806D1E34F95D00E6C00F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D062806C1E34F95D00E6C00F /* main.m */; };
+		D06280701E34F95D00E6C00F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D062806F1E34F95D00E6C00F /* AppDelegate.m */; };
+		D06280731E34F95D00E6C00F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D06280721E34F95D00E6C00F /* ViewController.m */; };
+		D06280761E34F95D00E6C00F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D06280741E34F95D00E6C00F /* Main.storyboard */; };
+		D06280781E34F95D00E6C00F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D06280771E34F95D00E6C00F /* Assets.xcassets */; };
+		D062807B1E34F95D00E6C00F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D06280791E34F95D00E6C00F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		035DE9CF9B6F5D4BCBB6A8D8 /* Pods_CasAuthSample_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CasAuthSample_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A0D3845D8DEF380BF736BF6 /* Pods-CasAuthSample-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CasAuthSample-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-CasAuthSample-iOS/Pods-CasAuthSample-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		5D9DE1DFD4D5BD686596112D /* Pods-CasAuthSample-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CasAuthSample-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CasAuthSample-iOS/Pods-CasAuthSample-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D06280681E34F95D00E6C00F /* CasAuthSample-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CasAuthSample-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D062806C1E34F95D00E6C00F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D062806E1E34F95D00E6C00F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D062806F1E34F95D00E6C00F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D06280711E34F95D00E6C00F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D06280721E34F95D00E6C00F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D06280751E34F95D00E6C00F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D06280771E34F95D00E6C00F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D062807A1E34F95D00E6C00F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D062807C1E34F95D00E6C00F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D06280651E34F95D00E6C00F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D7B56965BCD0D5770AAB71B /* Pods_CasAuthSample_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56ED860BE51971D16133B547 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				035DE9CF9B6F5D4BCBB6A8D8 /* Pods_CasAuthSample_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4C5AD5D0E64AD581B93FED3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D9DE1DFD4D5BD686596112D /* Pods-CasAuthSample-iOS.debug.xcconfig */,
+				1A0D3845D8DEF380BF736BF6 /* Pods-CasAuthSample-iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D062805F1E34F95D00E6C00F = {
+			isa = PBXGroup;
+			children = (
+				D062806A1E34F95D00E6C00F /* CasAuthSample-iOS */,
+				D06280691E34F95D00E6C00F /* Products */,
+				B4C5AD5D0E64AD581B93FED3 /* Pods */,
+				56ED860BE51971D16133B547 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D06280691E34F95D00E6C00F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D06280681E34F95D00E6C00F /* CasAuthSample-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D062806A1E34F95D00E6C00F /* CasAuthSample-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D062806E1E34F95D00E6C00F /* AppDelegate.h */,
+				D062806F1E34F95D00E6C00F /* AppDelegate.m */,
+				D06280711E34F95D00E6C00F /* ViewController.h */,
+				D06280721E34F95D00E6C00F /* ViewController.m */,
+				D06280741E34F95D00E6C00F /* Main.storyboard */,
+				D06280771E34F95D00E6C00F /* Assets.xcassets */,
+				D06280791E34F95D00E6C00F /* LaunchScreen.storyboard */,
+				D062807C1E34F95D00E6C00F /* Info.plist */,
+				D062806B1E34F95D00E6C00F /* Supporting Files */,
+			);
+			path = "CasAuthSample-iOS";
+			sourceTree = "<group>";
+		};
+		D062806B1E34F95D00E6C00F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D062806C1E34F95D00E6C00F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D06280671E34F95D00E6C00F /* CasAuthSample-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D062807F1E34F95D00E6C00F /* Build configuration list for PBXNativeTarget "CasAuthSample-iOS" */;
+			buildPhases = (
+				FB80A250D0F9208B7D833297 /* [CP] Check Pods Manifest.lock */,
+				D06280641E34F95D00E6C00F /* Sources */,
+				D06280651E34F95D00E6C00F /* Frameworks */,
+				D06280661E34F95D00E6C00F /* Resources */,
+				9AB5363CC6714C913F05FB27 /* [CP] Embed Pods Frameworks */,
+				724551C540401B01CC94EFC1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CasAuthSample-iOS";
+			productName = "CasAuthSample-iOS";
+			productReference = D06280681E34F95D00E6C00F /* CasAuthSample-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D06280601E34F95D00E6C00F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Moi Corporation";
+				TargetAttributes = {
+					D06280671E34F95D00E6C00F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D06280631E34F95D00E6C00F /* Build configuration list for PBXProject "CasAuthSample-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D062805F1E34F95D00E6C00F;
+			productRefGroup = D06280691E34F95D00E6C00F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D06280671E34F95D00E6C00F /* CasAuthSample-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D06280661E34F95D00E6C00F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D062807B1E34F95D00E6C00F /* LaunchScreen.storyboard in Resources */,
+				D06280781E34F95D00E6C00F /* Assets.xcassets in Resources */,
+				D06280761E34F95D00E6C00F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		724551C540401B01CC94EFC1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CasAuthSample-iOS/Pods-CasAuthSample-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AB5363CC6714C913F05FB27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CasAuthSample-iOS/Pods-CasAuthSample-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB80A250D0F9208B7D833297 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D06280641E34F95D00E6C00F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D06280731E34F95D00E6C00F /* ViewController.m in Sources */,
+				D06280701E34F95D00E6C00F /* AppDelegate.m in Sources */,
+				D062806D1E34F95D00E6C00F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D06280741E34F95D00E6C00F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D06280751E34F95D00E6C00F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D06280791E34F95D00E6C00F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D062807A1E34F95D00E6C00F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D062807D1E34F95D00E6C00F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D062807E1E34F95D00E6C00F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D06280801E34F95D00E6C00F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D9DE1DFD4D5BD686596112D /* Pods-CasAuthSample-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "CasAuthSample-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "st.moi.CasAuthSample-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		D06280811E34F95D00E6C00F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A0D3845D8DEF380BF736BF6 /* Pods-CasAuthSample-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "CasAuthSample-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "st.moi.CasAuthSample-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D06280631E34F95D00E6C00F /* Build configuration list for PBXProject "CasAuthSample-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D062807D1E34F95D00E6C00F /* Debug */,
+				D062807E1E34F95D00E6C00F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D062807F1E34F95D00E6C00F /* Build configuration list for PBXNativeTarget "CasAuthSample-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D06280801E34F95D00E6C00F /* Debug */,
+				D06280811E34F95D00E6C00F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D06280601E34F95D00E6C00F /* Project object */;
+}
